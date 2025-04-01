@@ -6,26 +6,30 @@
   <title>FutureFusion</title>
   <meta name="description" content="FutureFusion: The next phase of onchain evolution. Built for the brave. Fueled by the future.">
   <link rel="icon" href="https://fav.farm/🚀" />
-  <script src="https://cdn.tailwindcss.com"></script><script>
-  tailwind.config = {
-    theme: {
-      extend: {
-        animation: {
-          'fade-in-down': 'fadeInDown 1s ease-out',
-        },
-        keyframes: {
-          fadeInDown: {
-            '0%': { opacity: '0', transform: 'translateY(-20px)' },
-            '100%': { opacity: '1', transform: 'translateY(0)' },
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          animation: {
+            'fade-in-down': 'fadeInDown 1s ease-out',
+          },
+          keyframes: {
+            fadeInDown: {
+              '0%': { opacity: '0', transform: 'translateY(-20px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
+            },
           },
         },
-      }
+      },
     }
-  }
-</script>
+  </script>
 </head>
+
 <body class="bg-black text-white font-sans relative z-10">
-<div class="fixed top-0 left-0 w-full h-full bg-gradient-to-br from-green-400/10 via-purple-500/10 to-cyan-400/10 blur-3xl z-0 animate-pulse"></div>
+  <!-- Gradient Background Glow -->
+  <div class="fixed top-0 left-0 w-full h-full bg-gradient-to-br from-green-400/10 via-purple-500/10 to-cyan-400/10 blur-3xl z-0 animate-pulse"></div>
 
   <!-- Hero Section -->
   <section class="h-screen flex flex-col justify-center items-center text-center px-4 animate-fade-in-down">
@@ -73,6 +77,5 @@
     </a>
     <p class="text-gray-500 mt-4 text-sm">© 2025–2026 FutureFusion. All memes reserved.</p>
   </footer>
-
 </body>
 </html>
